@@ -8,9 +8,8 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Applestudio />} />
-        <Route path="/AppleWatch" element={<AppleWatch />} />
+        <Route path="/watches" element={<AppleWatch />} />
       </Routes>
-      <Applestudio />
     </Router>
   );
 };

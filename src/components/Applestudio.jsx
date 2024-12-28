@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 const Applestudio = () => {
   const navigate = useNavigate();
   const handleClick = () => {
-    navigate("/AppleWatch");
+    navigate("/watches");
   };
 
   return (
