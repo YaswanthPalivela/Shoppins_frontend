@@ -9,7 +9,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Applestudio />} />
         <Route path="/watches" element={<AppleWatch />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path="/NotFound" element={<NotFound />} />
       </Routes>
     </Router>
   );
